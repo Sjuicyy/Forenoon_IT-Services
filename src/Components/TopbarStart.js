@@ -1,7 +1,6 @@
 // import logo from "./logo.svg";
 function TopbarStart() {
   return (
-    <div className="App">
       <div>
         <div class="container-fluid bg-dark px-5 d-none d-lg-block">
           <div class="row gx-0">
@@ -25,7 +24,7 @@ function TopbarStart() {
             <div class="col-lg-4 text-center text-lg-end">
               <div
                 class="d-inline-flex align-items-center"
-                style={{ height: 45 + "px" }}
+                style={{ height: "45px" }}
               >
                 <a
                   class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
@@ -62,7 +61,6 @@ function TopbarStart() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
